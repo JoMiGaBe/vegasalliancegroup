@@ -1,0 +1,114 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.top-nav {
+    width: 100%;
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.top-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav ul li {
+    margin: 0 15px;
+}
+
+.top-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    transition: background 0.3s;
+}
+
+.top-nav ul li a:hover {
+    background: #f44336;
+    border-radius: 5px;
+}
+
+.sidebar {
+    width: 250px;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    height: 100%;
+    top: 50px;
+    left: 0;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.hero {
+    margin-left: 250px;
+    padding-top: 60px;
+    background: url('las-vegas.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.section {
+    margin-left: 250px;
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.section h2 {
+    font-size: 2.5rem;
+    color: #f44336;
+}
+
+.review-card {
+    background: #1e1e1e;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.review-card h4 {
+    text-align: right;
+    margin-top: 10px;
+    color: #f44336;
+}
+
+.pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+.pricing-table th, .pricing-table td {
+    border: 1px solid #444;
+    padding: 15px;
+    text-align: left;
+}
+
+.pricing-table th {
+    background: #f44336;
+    color: #fff;
+}
+
+.pricing-table tr:nth-child(even) {
+    background: #1e1e1e;
+}
